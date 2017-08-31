@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>A Beautiful Table</title>
+<title>数据表格</title>
 <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('assets/btw/css-table.css') }}" />
 <script type="text/javascript" src="{{ asset('assets/btw/js/jquery-1.2.6.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/btw/js/style-table.js') }}"></script>
@@ -21,12 +21,12 @@
         </tr>
         
         <tr>
-            <th scope="col">Central London</th>
-            <th scope="col">Rest of Inner London</th>
-            <th scope="col">Outer London</th>
-            <th scope="col">All London</th>
-            <th scope="col">Rest of Great Britain</th>
-            <th scope="col">Great Britain</th>
+            <th scope="col">栏目1</th>
+            <th scope="col">栏目2</th>
+            <th scope="col">栏目3</th>
+            <th scope="col">栏目4</th>
+            <th scope="col">栏目5</th>
+            <th scope="col">栏目6</th>
         </tr>        
     </thead>
     
