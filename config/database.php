@@ -79,7 +79,22 @@ return [
             'strict' => true,
             'engine' => null,
         ],
-
+    
+    
+        'mysql_lo' => [
+            'driver' => 'mysql',
+            'host' => env('DB_HOST_LO', 'localhost'),
+            'port' => env('DB_PORT_LO', '3306'),
+            'database' => env('DB_DATABASE_LO', 'forge'),
+            'username' => env('DB_USERNAME_LO', 'forge'),
+            'password' => env('DB_PASSWORD_LO', ''),
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix' => env('DB_PREFIX_LO', ''),
+            'strict' => true,
+            'engine' => null,
+        ],
+        
         'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', 'localhost'),

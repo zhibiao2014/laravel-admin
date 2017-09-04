@@ -100,3 +100,8 @@ Route::group(['prefix' => 'member', 'namespace' => 'Member', 'middleware' => ['a
 Route::group(['prefix' => 'btw', 'namespace' => 'Btw'], function () {
     Route::get('/', 'IndexController@index')->name('btw.index');
 });
+
+//宝通
+Route::group(['prefix' => 'btw', 'namespace' => 'Btw'], function () {
+    Route::get('jr', 'IndexController@jr')->name('btw.jr');
+});
