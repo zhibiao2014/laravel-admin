@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>ZhiBiao</title>
 
         <!-- Fonts -->
         <link href="https://fonts.lug.ustc.edu.cn/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -68,14 +68,14 @@
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
-                    <a href="{{ url('login') }}">Login</a>
-                    <a href="{{ url('register') }}">Register</a>
+                    <a href="{{ url('login') }}">登录</a>
+                    <a href="{{ url('register') }}">注册</a>
                 </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    INDEX
+                    不一样的Feeling
                 </div>
             </div>
         </div>
